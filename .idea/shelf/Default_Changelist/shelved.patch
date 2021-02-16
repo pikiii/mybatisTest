@@ -1,0 +1,393 @@
+Index: .idea/sqldialects.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sqldialects.xml b/.idea/sqldialects.xml
+new file mode 100644
+--- /dev/null	(date 1613385854235)
++++ b/.idea/sqldialects.xml	(date 1613385854235)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="SqlDialectMappings">
++    <file url="file://$PROJECT_DIR$/MybatisStudy/mybatis-01/src/main/java/com/kuang/dao/UserMapper.xml" dialect="GenericSQL" />
++    <file url="PROJECT" dialect="MySQL" />
++  </component>
++</project>
+\ No newline at end of file
+Index: MybatisStudy/MybatisStudy.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MybatisStudy/MybatisStudy.iml b/MybatisStudy/MybatisStudy.iml
+new file mode 100644
+--- /dev/null	(date 1613267343413)
++++ b/MybatisStudy/MybatisStudy.iml	(date 1613267343413)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1613382629201)
++++ b/.idea/misc.xml	(date 1613382629201)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/MybatisStudy/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1613382433675)
++++ b/.idea/.gitignore	(date 1613382433675)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/../../../../../:\work\java\MybatisStudy\.idea/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: MybatisStudy/Mybatis-Study.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MybatisStudy/Mybatis-Study.iml b/MybatisStudy/Mybatis-Study.iml
+new file mode 100644
+--- /dev/null	(date 1613382628934)
++++ b/MybatisStudy/Mybatis-Study.iml	(date 1613382628934)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.47" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.2" level="project" />
++    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
++    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1613382628968)
++++ b/.idea/modules.xml	(date 1613382628968)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/MybatisStudy/Mybatis-Study.iml" filepath="$PROJECT_DIR$/MybatisStudy/Mybatis-Study.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/MybatisStudy.iml" filepath="$PROJECT_DIR$/.idea/MybatisStudy.iml" />
++      <module fileurl="file://$PROJECT_DIR$/MybatisStudy/mybatis-01/mybatis-01.iml" filepath="$PROJECT_DIR$/MybatisStudy/mybatis-01/mybatis-01.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/MybatisStudy.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/MybatisStudy.iml b/.idea/MybatisStudy.iml
+new file mode 100644
+--- /dev/null	(date 1613382432784)
++++ b/.idea/MybatisStudy.iml	(date 1613382432784)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: MybatisStudy/mybatis-01/mybatis-01.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MybatisStudy/mybatis-01/mybatis-01.iml b/MybatisStudy/mybatis-01/mybatis-01.iml
+new file mode 100644
+--- /dev/null	(date 1613382628900)
++++ b/MybatisStudy/mybatis-01/mybatis-01.iml	(date 1613382628900)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.47" level="project" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.2" level="project" />
++    <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
++    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/libraries/Maven__junit_junit_4_12.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__junit_junit_4_12.xml b/.idea/libraries/Maven__junit_junit_4_12.xml
+new file mode 100644
+--- /dev/null	(date 1613382629010)
++++ b/.idea/libraries/Maven__junit_junit_4_12.xml	(date 1613382629010)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: junit:junit:4.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml b/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+new file mode 100644
+--- /dev/null	(date 1613382629069)
++++ b/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml	(date 1613382629069)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml b/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml
+new file mode 100644
+--- /dev/null	(date 1613382629031)
++++ b/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml	(date 1613382629031)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: mysql:mysql-connector-java:5.1.47">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1613382629168)
++++ b/.idea/compiler.xml	(date 1613382629168)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="mybatis-01" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="mybatis-01" target="1.5" />
++      <module name="Mybatis-Study" target="1.5" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml b/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml
+new file mode 100644
+--- /dev/null	(date 1613382629110)
++++ b/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml	(date 1613382629110)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mybatis:mybatis:3.5.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1613382629241)
++++ b/.idea/jarRepositories.xml	(date 1613382629241)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1613382629227)
++++ b/.idea/dataSources.xml	(date 1613382629227)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="MySQL - @localhost" uuid="17fa44cb-4e64-4a4f-b45f-7c9832c474a6">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1613502139895)
++++ b/.idea/vcs.xml	(date 1613502139895)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1613383187805)
++++ b/.idea/encodings.xml	(date 1613383187805)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.name b/.idea/.name
+new file mode 100644
+--- /dev/null	(date 1613382628800)
++++ b/.idea/.name	(date 1613382628800)
+@@ -0,0 +1,1 @@
++Mybatis-Study
+\ No newline at end of file
